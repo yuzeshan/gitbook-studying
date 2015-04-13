@@ -15,6 +15,9 @@
 ##在Github上创建仓库，并设置
 - 登录Github账户，创建仓库`gitbook-studying`;
 - 显示如下:![](../imgs/git_repository.png)
+- 将建好的仓库克隆到本地，但是使用cmd的时候，发现clone被拒绝，未找到原因，于是换作git bash同样使用cd进入书籍目录(E:\gitbook\gitbook-studying-github，此为新的空目录)
+- 运行命令:`$git clone git@github.com:yuzeshan/gitbook-studying.git`,在此目录生成了`gitbook-studying/.git`文件
+- `$cd gitbook-studying，此时git bash目录结构为**/e/gitbook/gitbook-studying-github/gitbook-studying**
 
 ##在Gitbook.com上为该项目设置Github集成
  
@@ -32,9 +35,9 @@
 
 现在，将书籍原来的 Git 项目内容导入到新建的 GitHub 中的项目中，步骤如下:
 
-1. 首先进入书籍目录(`E:\gitbook\gitbook-studying`)，之前如果已经在该目录下运行过git init后，就不许再次运行;
+1. 将之前编辑的书籍目录为`E:\gitbook\gitbook-studying`中除.git文件，全部拷贝到克隆的目录中，即`E:\gitbook\gitbook-studying-github\gitbook-studyin`中；
 2. 将已经编辑好的书籍文件，用git add/commit命令依次添加，提交后;
-3. 接下来将书籍仓库与远程github连接到一起，运行命令:`git remote add github https://git.gitbook.com/yuzeshan/gitbook-studying.git`(注意:并不是git remote add origin git@github.com:yuzeshan/gitbook-studying.git)；
+3. 接下来将书籍仓库与远程github连接到一起，运行命令:`git remote add github https://github.com//yuzeshan/gitbook-studying.git`(注意:并不是git remote add origin https://github.com:yuzeshan/gitbook-studying.git,也许不运行此命令也可，因为克隆的文件本身就关联了，未尝试。。。)；
 4. 最后，将书籍仓库push到github仓库上，运行命令：`git push -u github master`;
 5. git push 命令中的 -u 表示将本地 master 分支的上游分支设置为 github/master，所以以后修改了本地 master 分支后，git push 将推送到 github 上，而非原来的 `git remote add gitbook https://git.gitbook.com/yuzeshan/gitbook-studying.git`。
 
