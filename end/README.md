@@ -14,4 +14,4 @@ Github项目地址:<https://github.com/yuzeshan/gitbook-studying>
 
 在线阅读地址:<http://yuzeshan.gitbooks.io/gitbook-studying/content/>
 
-*测试github更新gitbook失败，再次测试*
+
