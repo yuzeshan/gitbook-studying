@@ -20,3 +20,5 @@ v0.10.28
 看到些提示，就表示你已成功安装上了`Node.js`。
 
 ###安装gitbook前必须先安装`node`.
+
+**Ps:本文中，运行命令几乎都在Windows cmd下，但是也有个比较好用的工具，[git bash,点击下载](http://git-scm.com/download/win)**

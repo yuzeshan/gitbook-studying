@@ -15,7 +15,7 @@
 ##在Github上创建仓库，并设置
 - 登录Github账户，创建仓库`gitbook-studying`;
 - 显示如下:![](../imgs/git_repository.png)
-- 将建好的仓库克隆到本地，但是使用cmd的时候，发现clone被拒绝，未找到原因，于是换作git bash同样使用cd进入书籍目录(E:\gitbook\gitbook-studying-github，此为新的空目录)
+- 将建好的仓库克隆到本地，但是使用cmd的时候，发现clone被拒绝，未找到原因，于是换作[git bash](http://git-scm.com/download/win)同样使用cd进入书籍目录(E:\gitbook\gitbook-studying-github，此为新的空目录)
 - 运行命令:`$git clone git@github.com:yuzeshan/gitbook-studying.git`,在此目录生成了`gitbook-studying/.git`文件
 - `$cd gitbook-studying，此时git bash目录结构为**/e/gitbook/gitbook-studying-github/gitbook-studying**
 
