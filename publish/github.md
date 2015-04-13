@@ -10,7 +10,7 @@
 
 等等
 
-这里，接着之前的实例，将使用 GitHub 中的项目来替代 GitBook.com 上的项目:https://git.gitbook.com/yuzeshan/gitbook-studying.git.分为以下三大步骤:
+这里，接着之前的实例，将使用 GitHub 中的项目来替代 GitBook.com 上的项目:`https://git.gitbook.com/yuzeshan/gitbook-studying.git`.分为以下三大步骤:
 
 ##在Github上创建仓库，并设置
 - 登录Github账户，创建仓库`gitbook-studying`;
@@ -37,7 +37,7 @@
 
 1. 将之前编辑的书籍目录为`E:\gitbook\gitbook-studying`中除.git文件，全部拷贝到克隆的目录中，即`E:\gitbook\gitbook-studying-github\gitbook-studyin`中；
 2. 将已经编辑好的书籍文件，用git add/commit命令依次添加，提交后;
-3. 接下来将书籍仓库与远程github连接到一起，运行命令:`git remote add github https://github.com//yuzeshan/gitbook-studying.git`(注意:并不是git remote add origin https://github.com:yuzeshan/gitbook-studying.git,也许不运行此命令也可，因为克隆的文件本身就关联了，未尝试。。。)；
+3. 接下来将书籍仓库与远程github连接到一起，运行命令:`git remote add github https://github.com//yuzeshan/gitbook-studying.git`(注意:并不是`git remote add origin https://github.com:yuzeshan/gitbook-studying.git`,也许不运行此命令也可，因为克隆的文件本身就关联了，未尝试。。。)；
 4. 最后，将书籍仓库push到github仓库上，运行命令：`git push -u github master`;
 5. git push 命令中的 -u 表示将本地 master 分支的上游分支设置为 github/master，所以以后修改了本地 master 分支后，git push 将推送到 github 上，而非原来的 `git remote add gitbook https://git.gitbook.com/yuzeshan/gitbook-studying.git`。
 
