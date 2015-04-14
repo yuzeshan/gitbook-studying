@@ -6,7 +6,8 @@
 
 ![](../imgs/create_gitbook.png)
 
-创建的书籍，title:`gitbook入门教程`,git url为`https://git.gitbook.com/yuzeshan/gitbook-studying.git`
+创建的书籍，title:`gitbook入门教程`,name为`gitbook-studying`
+则创建后的Gitbook线上仓库地址为`https://git.gitbook.com/yuzeshan/gitbook-studying.git`(当然，也可以打开书籍settings查看)
 
 这样，gitbook.com线上的仓库就建好了，由于GitBook.com 上的每本书都使用 Git 项目来管理，所以，事先写好的书籍就可以通过git提交上去，具体步骤如下：
 
